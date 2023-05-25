@@ -22,7 +22,7 @@ import { CaretUp, CaretDown } from "phosphor-react"
 
 let socket
 // const ENDPOINT = 'http://localhost:5000'
-const ENDPOINT = 'http://43.204.28.101:5000'
+const ENDPOINT = 'http://13.232.107.179:5000'
 
 const Game = (props) => {
     const data = queryString.parse(props.roomCode)
