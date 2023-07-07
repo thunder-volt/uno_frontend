@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import PACK_OF_CARDS from '../utils/packOfCards'
+import PACK_OF_CARDS from '../utils/packOfCards';
 import shuffleArray from '../utils/shuffleArray'
 import io from 'socket.io-client'
 import queryString from 'query-string'
